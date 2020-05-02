@@ -1,0 +1,1 @@
+# template-eqdkp_clean_dark
