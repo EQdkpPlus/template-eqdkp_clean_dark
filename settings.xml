@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings styleversion="2.3.0">
+	<template_path>eqdkp_clean_dark</template_path>
+	<attendees_columns>6</attendees_columns>
+	<logo_position>left</logo_position>
+	<favicon_img></favicon_img>
+	<banner_img>@eqdkpTemplateImagePath/background-head.svg</banner_img>
+	<background_img></background_img>
+	<column_right_width>0px</column_right_width>
+	<column_left_width>0px</column_left_width>
+	<portal_width>0px</portal_width>
+	<background_pos>normal</background_pos>
+	<background_type>0</background_type>
+	<body_background_color>rgb(21, 21, 21)</body_background_color>
+	<body_font_color>#ffffff</body_font_color>
+	<body_font_size>14</body_font_size>
+	<body_font_family>"Open Sans",Arial,Helvetica,sans-serif</body_font_family>
+	<body_link_color>rgb(32, 157, 212)</body_link_color>
+	<body_link_color_hover>rgb(32, 157, 212)</body_link_color_hover>
+	<body_link_decoration>none</body_link_decoration>
+	<container_background_color>rgb(21, 21, 21)</container_background_color>
+	<container_border_color>rgb(51, 51, 51)</container_border_color>
+	<content_background_color>rgb(21, 21, 21)</content_background_color>
+	<content_font_color>rgb(253, 253, 253)</content_font_color>
+	<content_font_color_headings>rgb(199, 199, 199)</content_font_color_headings>
+	<content_link_color>rgb(32, 157, 212)</content_link_color>
+	<content_link_color_hover>rgb(32, 157, 212)</content_link_color_hover>
+	<content_border_color>rgb(107, 107, 113)</content_border_color>
+	<content_accent_color>rgb(23, 23, 25)</content_accent_color>
+	<userarea_background_color>rgb(23, 23, 25)</userarea_background_color>
+	<userarea_font_color>rgb(255, 255, 255)</userarea_font_color>
+	<userarea_link_color>rgb(255, 255, 255)</userarea_link_color>
+	<userarea_link_color_hover>rgb(237, 237, 237)</userarea_link_color_hover>
+	<table_th_background_color>rgb(50, 50, 53)</table_th_background_color>
+	<table_th_font_color>rgb(255, 255, 255)</table_th_font_color>
+	<table_tr_font_color>rgb(255, 255, 255)</table_tr_font_color>
+	<table_tr_background_color1>rgb(23, 23, 25)</table_tr_background_color1>
+	<table_tr_background_color2>rgb(50, 50, 53)</table_tr_background_color2>
+	<table_tr_background_color_hover>rgb(82, 82, 86)</table_tr_background_color_hover>
+	<table_border_color>rgb(50, 50, 53)</table_border_color>
+	<menu_background_color>rgb(50, 50, 53)</menu_background_color>
+	<menu_font_color>rgb(255, 255, 255)</menu_font_color>
+	<menu_item_background_color>rgba(255, 255, 255, 0)</menu_item_background_color>
+	<menu_item_background_color_hover>rgb(74, 74, 74)</menu_item_background_color_hover>
+	<menu_item_font_color_hover>rgb(255, 255, 255)</menu_item_font_color_hover>
+	<sidebar_background_color>rgb(38, 38, 38)</sidebar_background_color>
+	<sidebar_font_color>rgb(255, 255, 255)</sidebar_font_color>
+	<sidebar_border_color>rgb(38, 38, 38)</sidebar_border_color>
+	<button_background_color>rgb(3, 113, 164)</button_background_color>
+	<button_font_color>#ffffff</button_font_color>
+	<button_border_color>rgb(4, 100, 144)</button_border_color>
+	<button_background_color_hover>rgb(0, 100, 146)</button_background_color_hover>
+	<button_font_color_hover>#ffffff</button_font_color_hover>
+	<button_border_color_hover>rgb(0, 100, 146)</button_border_color_hover>
+	<input_background_color>rgb(50, 50, 53)</input_background_color>
+	<input_border_color>rgb(50, 50, 53)</input_border_color>
+	<input_font_color>rgb(217, 217, 223)</input_font_color>
+	<input_background_color_active>rgb(80, 80, 83)</input_background_color_active>
+	<input_border_color_active>rgb(80, 80, 83)</input_border_color_active>
+	<input_font_color_active>rgb(217, 217, 223)</input_font_color_active>
+	<content_contrast_color>rgb(199, 199, 199)</content_contrast_color>
+	<content_contrast_background_color>rgb(38, 38, 38)</content_contrast_background_color>
+	<content_contrast_border_color>rgb(51, 51, 51)</content_contrast_border_color>
+	<content_positive_color>rgb(51, 204, 51)</content_positive_color>
+	<content_negative_color>rgb(226, 59, 48)</content_negative_color>
+	<content_neutral_color>rgb(153, 153, 153)</content_neutral_color>
+	<content_highlight_color>rgb(3, 113, 164)</content_highlight_color>
+	<misc_color1></misc_color1>
+	<misc_color2>rgb(255, 255, 255)</misc_color2>
+	<misc_color3></misc_color3>
+	<misc_text1></misc_text1>
+	<misc_text2></misc_text2>
+	<misc_text3></misc_text3>
+	<additional_less>@eqdkpHeaderFontColor: #fff;
+@styleCommentContainerBackgroundColor: #262626;
+@styleCommentContainerBorderColor: #262626;
+@styleCommentAuthorColor: #9f9f9f;
+
+@stylePaginationBorderColor: #323235;
+@stylePaginationBackgroundColor: #323235;
+@stylePaginationActiveBackgroundColor: #505053;
+@stylePaginationActiveColor: #d9d9df;
+@stylePaginationActiveHoverBackgroundColor: #505053;
+@stylePaginationActiveHoverColor: #d9d9df;
+
+@styleArticleSitemapBorderColor: #323235;
+@styleArticleSitemapBackgroundColor: #505053;
+@styleArticleSitemapActiveBackgroundColor: #505053;
+@styleArticleSitemapActiveColor: #d9d9df;
+@styleArticleSitemapHoverColor: #d9d9df;
+
+@styleBorderRadius:0px;
+@styleShadowColor: #17252d;
+@stylePortalModulesBorderRadius:0px;
+@stylePortalModulesBorderColor:transparent;
+@stylePortalModulesColor:@eqdkpContentFontColor;
+@stylePortalModulesBackgroundColor:@eqdkpContentBackgroundColor;
+@styleContentFooter: rgb(50, 50, 53);
+@styleBooleanGreen:#4da551;
+@styleBooleanRed:#ef5450;
+@styleTableThBorderColor: #4e7fa8;
+@styleAvatarBorderRadius: 50%;
+@styleFeaturedColor: #ffd700;
+@styleBannerBackgroundColorFrom: rgba(21, 21, 21, 1);
+@styleBannerBackgroundColorTo: rgba(21, 21, 21, 1);
+@styleBubbleBorderRadius: 9px;</additional_less>
+	<additional_fields>a:0:{}</additional_fields>
+	<editor_theme>charcoal</editor_theme>
+	<classcolors>
+		<cc_0></cc_0>
+		<cc_2>#FF7D0A</cc_2>
+		<cc_3>#ABD473</cc_3>
+		<cc_4>#69CCF0</cc_4>
+		<cc_5>#F58CBA</cc_5>
+		<cc_6>#FFFFFF</cc_6>
+		<cc_7>#FFF569</cc_7>
+		<cc_9>#9482C9</cc_9>
+		<cc_10>#C79C6E</cc_10>
+	</classcolors>
+</settings>
