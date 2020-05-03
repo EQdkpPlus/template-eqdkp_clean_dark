@@ -3416,7 +3416,7 @@ button#cboxPrevious, button#cboxNext, button#cboxClose, button#cboxSlideshow {
 .user-groups a {
 	background: none repeat scroll 0 0 @eqdkpContentHighlightColor;
 	border-radius: 8px 8px 8px 8px;
-	color: @eqdkpContentBackgroundColor;
+	color: @eqdkpBodyFontColor;
 	display: inline-block;
 	font-size: 11px;
 	font-weight: bold;
@@ -4164,7 +4164,7 @@ li.prio_2 {
 
 .bubble {
   background-color: @eqdkpContentHighlightColor;
-  color: @eqdkpContentBackgroundColor !important;
+  color: @eqdkpBodyFontColor !important;
   display: inline-block;
   font-size: .90rem;
   padding: 4px 10px 4px;
@@ -4650,6 +4650,16 @@ em {
 	color: red;
 }
 
+/*
 #portal_layout_form .ui-state-hover.ui-sortable-handle {
 	background:  @eqdkpInputBackgroundColor;
+}
+
+.ui-progressbar .ui-widget-header {
+	background: @eqdkpInputBackgroundColor;
+}
+*/
+
+.fa-inverse {
+	color: @eqdkpInputBackgroundColor;
 }
