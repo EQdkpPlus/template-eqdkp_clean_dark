@@ -1069,7 +1069,7 @@ button[disabled], button[disabled]:hover, input[type=submit][disabled], input[ty
 
 select[disabled], textarea[disabled], input[type="text"][disabled], input[type="password"][disabled], input[type="datetime"][disabled], input[type="datetime-local"][disabled], input[type="date"][disabled], input[type="month"][disabled], input[type="time"][disabled], input[type="week"][disabled], input[type="number"][disabled], input[type="email"][disabled], input[type="url"][disabled], input[type="search"][disabled], input[type="tel"][disabled], input[type="color"][disabled],
 select[readonly], textarea[readonly], input[type="text"][readonly], input[type="password"][readonly], input[type="datetime"][readonly], input[type="datetime-local"][readonly], input[type="date"][readonly], input[type="month"][readonly], input[type="time"][readonly], input[type="week"][readonly], input[type="number"][readonly], input[type="email"][readonly], input[type="url"][readonly], input[type="search"][readonly], input[type="tel"][readonly], input[type="color"][readonly]{
-	background-color: #EEEEEE;
+	background-color: #000;
 	cursor: not-allowed;
 }
 
@@ -4662,4 +4662,8 @@ em {
 
 .fa-inverse {
 	color: @eqdkpInputBackgroundColor;
+}
+
+.ui-sortable-handle {
+	background-color: @eqdkpInputBackgroundColor;
 }
